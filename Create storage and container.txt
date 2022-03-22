@@ -1,0 +1,7 @@
+# create Storage account
+
+az storage account keys list --resource-group "yourresourcegroup" --account-name "storageaccountname"
+
+#create contaner and allow acces to it
+
+az storage container create --name "container name" --accoun-name "storageaccount" --account-key "storagekey"
